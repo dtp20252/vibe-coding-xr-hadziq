@@ -1,0 +1,8 @@
+{
+  "name": "xr-hadziq",
+  "version": "1.0.0",
+  "description": "WebXR application",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

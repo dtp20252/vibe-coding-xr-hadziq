@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Build output
+build/
+dist/
+out/
+coverage/
+.cache/
+.tmp/
+tmp/
+
+# Framework and bundler caches
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+*.tsbuildinfo
+
+# Test and tooling artifacts
+.nyc_output/
+playwright-report/
+test-results/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+
+# Local package manager files
+.pnpm-store/
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Optional local XR / asset processing artifacts
+*.blend1
+*.tmp.glb
+*.tmp.gltf
+
+# Keep repository automation and AI assistant configuration
+!.github/
+!.github/**
+!.claude/
+!.claude/**
